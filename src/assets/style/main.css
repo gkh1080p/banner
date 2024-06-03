@@ -1,0 +1,22 @@
+li {
+    list-style: none;
+}
+
+/* 初始化 a 标签的样式 */
+a {
+    text-decoration: none;
+    /* 去掉下划线 */
+    color: white;
+    /* 设置字体颜色为白色 */
+    transition: color 0s;
+    /* 取消鼠标悬停时的颜色改变 */
+}
+
+/* 取消鼠标悬停时的颜色改变 */
+a:hover {
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
